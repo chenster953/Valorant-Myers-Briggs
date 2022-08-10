@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Who's your Valorant Agent</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="title">Who's your Valorant Agent?</div>
+  <button class="menu" id="menu"><i class="fa-solid fa-bars hamburger"></i></button>
+  <div class="dropdownmenu hidden">
+    <i class="fa-solid fa-xmark close"></i>
+    <ul class="agentlist">Agents:
+      <ul><a class="raze" href="raze/raze.html">Raze</a></ul>
+      <ul><a class="sage" href="sage/sage.html">Sage</a></ul>
+      <ul><a class="phoenix" href="phoenix/phoenix.html">Phoenix</a></ul>
+      <ul><a class="reyna" href="reyna/reyna.html">Reyna</a></ul>
+      <ul><a class="jett" href="jett/jett.html">Jett</a></ul>
+      <ul><a class="breach" href="breach/breach.html">Breach</a></ul>
+      <ul><a class="brimstone" href="brimstone/brimstone.html">Brimstone</a></ul>
+      <ul><a class="viper" href="viper/viper.html">Viper</a></ul>
+      <ul><a class="sova" href="sova/sova.html">Sova</a></ul>
+      <ul class="kayo">Kayo</ul>
+      <ul class="astra">Astra</ul>
+      <ul><a class="cypher" href="cypher/cypher.html">Cypher</a></ul>
+      <ul class="fade">Fade</ul>
+      <ul><a class="killjoy" href="killjoy/killjoy.html">Killjoy</a></ul>
+      <ul class="neon">Neon</ul>
+      <ul><a class="omen" href="omen/omen.html">Omen</a></ul>
+      <ul><a class="skye" href="skye/skye.html">Skye</a></ul>
+      <ul><a class="yoru" href="yoru/yoru.html">Yoru</a></ul>
+    </ul>   
+  </div>
+  <div class="grouppicture"><img class="
+    mainpicture" src="https://www.esports.net/wp-content/uploads/2021/07/Valorant-Agents.jpg" alt="group picture"></div>
+  <button class="startbtn" id="startbtn">Start</button>
+  <div class="popup hidden">
+    <div class="block1">
+      <div class="question1">Question?</div>
+      <div class="answer">
+        <div class="agree">Agree</div>
+          <div class="options">
+            <input type="radio" class="bigyes" name="radio1" id="1">
+            <input type="radio" class="medyes" name="radio1" id="2">
+            <input type="radio" class="smallyes" name="radio1" id="3">
+            <input type="radio" class="idk" name="radio1" id="4">
+            <input type="radio" class="smallno" name="radio1" id="5">
+            <input type="radio" class="medno" name="radio1" id="6">
+            <input type="radio" class="bigno" name="radio1" id="7">
+          </div>
+        <div class="disagree">Disagree</div>
+      </div>
+    </div>
+    <div class="block2">
+      <div class="question2">Question?</div>
+      <div class="answer">
+        <div class="agree">Agree</div>
+          <div class="options">
+            <input type="radio" class="bigyes" name="radio2" id="8">
+            <input type="radio" class="medyes" name="radio2" id="9">
+            <input type="radio" class="smallyes" name="radio2" id="10">
+            <input type="radio" class="idk" name="radio2" id="11">
+            <input type="radio" class="smallno" name="radio2" id="12">
+            <input type="radio" class="medno" name="radio2" id="13">
+            <input type="radio" class="bigno" name="radio2" id="14">
+          </div>
+        <div class="disagree">Disagree</div>
+      </div>
+    </div> 
+    <div class="block3">
+      <div class="question3">Question?</div>
+      <div class="answer">
+        <div class="agree">Agree</div>
+          <div class="options">
+            <input type="radio" class="bigyes" name="radio3" id="15">
+            <input type="radio" class="medyes" name="radio3" id="16">
+            <input type="radio" class="smallyes" name="radio3" id="17">
+            <input type="radio" class="idk" name="radio3" id="18">
+            <input type="radio" class="smallno" name="radio3" id="19">
+            <input type="radio" class="medno" name="radio3" id="20">
+            <input type="radio" class="bigno" name="radio3" id="21">
+          </div>
+        <div class="disagree">Disagree</div>
+      </div>
+    </div>
+    <div class="block4">
+      <div class="question4">Question?</div>
+      <div class="answer">
+        <div class="agree">Agree</div>
+          <div class="options">
+            <input type="radio" class="bigyes" name="radio4" id="22">
+            <input type="radio" class="medyes" name="radio4" id="23">
+            <input type="radio" class="smallyes" name="radio4" id="24">
+            <input type="radio" class="idk" name="radio4" id="25">
+            <input type="radio" class="smallno" name="radio4" id="26">
+            <input type="radio" class="medno" name="radio4" id="27">
+            <input type="radio" class="bigno" name="radio4" id="28">
+          </div>
+        <div class="disagree">Disagree</div>
+      </div>
+    </div>
+    <button class="next">Continue</button>
+  </div>
+  <div class="chosen hidden">
+    <div class="congrats">CONGRATULATIONS!</div>
+    <div class="agentforyou">The agent for you is</div>
+    <div class="agentlogo"></div>
+    <div class="link"><a class="agentlink" href="cypher/cypher.html"></a>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

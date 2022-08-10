@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-image: linear-gradient(to right, rgb(187, 191, 199), rgb(73, 91, 124));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.phoenix {
+  margin-top: -200px;
+}
+.left-container {
+  background-image: url(https://c.tenor.com/UeBsS09LA8UAAAAd/brimstone-valorant.gif);
+  width: 600px;
+  height: 288px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  left: 100px;
+  top: 300px;
+  border: solid;
+  border-radius: 2px;
+  box-shadow: 4px 2px 2px rgba(0,0,0,.8);
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 100px;
+  top: 300px;
+  background-color: white;
+  width: 600px;
+  height: 288px;
+  border-radius: 15px;
+  box-shadow: 4px 2px 2px rgba(0,0,0,.8);
+  border: solid black 2px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  border: none;
+  width: 600px;
+  top: -2px;
+  left: -2px;
+  border-radius: 15px;
+}
+.nav button{
+  font-size: 20px;
+  width: 150px;
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-family: fantasy;
+  transition: 0.3s;
+  border-top: solid;
+}
+.overview {
+  border-top-left-radius: 15px;
+  border-left: solid black 2px;
+  border-right: none;
+  border-bottom: none;
+}
+.origin {
+  border: none;
+}
+.playstyle {
+  border: none;
+}
+.abilities {
+  border: none;
+}
+.overview:hover {
+  background-color: rgb(87, 20, 203);
+}
+.origin:hover {
+  background-color: rgb(198, 82, 198);
+}
+.playstyle:hover {
+  background-color: rgb(221, 221, 41);
+}
+.abilities:hover {
+  background-color: rgb(26, 182, 26);
+}
+.personality {
+  border-top-right-radius: 15px;
+  border-left: none;
+  border-bottom: none;
+}
+.personality:hover {
+  background-color: rgb(210, 34, 72);
+}
